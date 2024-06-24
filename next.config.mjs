@@ -11,10 +11,10 @@ const nextConfig = {
         source: "/",
         destination: "/api/wikipedia"
       },
-      // {
-      //   source: "/wikipedia/(.*)",
-      //   destination: "/api/wikipedia"
-      // }
+      {
+        source: "/(.*)",
+        destination: "/api/wikipedia"
+      }
     ];
   },
 };
