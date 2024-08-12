@@ -3,20 +3,40 @@ const nextConfig = {
   reactStrictMode: true,
   async rewrites() {
     return [
+      // Claude Api path
+      {
+        source: "/v1/messages",
+        destination: "/api/proxy",
+      },
+      {
+        source: "/v1/complete",
+        destination: "/api/proxy",
+      },
+      // OpenAI Api path
       {
         source: "/v1/(.*)",
         destination: "/api/proxy",
       },
+      // Gemini Api path
       {
-        source: "/",
-        destination: "/api/proxy"
+        source: "/v1beta/(.*)",
+        destination: "/api/proxy",
+      },
+      // Groq Api path
+      {
+        source: "/openai/v1/(.*)",
+        destination: "/api/proxy",
       },
       {
-        source: "/(.*)",
+        source: "/headers",
+        destination: "/api/proxy",
+      },
+      {
+        source: "/",
         destination: "/api/proxy"
       }
     ];
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
