@@ -9,11 +9,11 @@ const nextConfig = {
       },
       {
         source: "/",
-        destination: "/api/wikipedia"
+        destination: "/api/proxy"
       },
       {
         source: "/(.*)",
-        destination: "/api/wikipedia"
+        destination: "/api/proxy"
       }
     ];
   },
