@@ -66,12 +66,12 @@ export API_KEY="您的 API 密钥"
 + export BASE_URL="您的部署 URL/v1"
 ```
 
+## 其它部署
+
+如果您使用 NGINX 部署，请参考 NGINX 文件夹内的 `nginx.conf` 配置；如果是 Cloudflare 配置，请参考 worker 文件夹内的 `index.js`。
+
 ## 支持项目
 
 如果您发现这个实现有用，或者它在您的项目中提供了帮助，请考虑在 GitHub 上给它一个星标。您的支持非常有帮助！
 
 🌟 感谢您使用 OepnaiEE！
-
-## 其它部署
-
-如果您使用 NGINX 部署，请参考 NGINX 文件夹内的 `nginx.conf` 配置；如果是 Cloudflare 配置，请参考 worker 文件夹内的 `index.js`。
