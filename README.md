@@ -8,6 +8,11 @@
 
 OepnaiEE 是一个专为简化在多个平台上部署机器学习模型的试验性项目。本项目支持与多个 API 服务集成，包括 OpenAI、Groq、Gemini 和 Claude，使其能够在 Vercel 和 Netlify 等平台上快速部署。虽然已进行优化，OepnaiEE 仍具有实验性质，因此在使用过程中需要谨慎，所有使用后果均需用户自行承担。
 
+OepnaiEE is an experimental project designed to simplify the deployment of machine learning models on multiple platforms. The project supports integration with multiple API services, including OpenAI, Groq, Gemini, and Claude, enabling rapid deployment on platforms such as Vercel and Netlify. Although optimized, OepnaiEE is experimental in nature and therefore needs to be used with caution, and all consequences of use are at the user's own risk.
+
+Deployment options
+
+
 ## 部署选项
 
 ### 通过 Vercel 部署
